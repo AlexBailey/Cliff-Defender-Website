@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Cliff Defender: Quiz</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<?php
+			$q1 = $_POST['q1'];
+            $q2 = $_POST['q2'];
+            $q3 = $_POST['q3'];
+            $q4 = $_POST['q4'];
+            $q5 = $_POST['q5'];
+        
+            $correctCount = 0;
+            
+            if ($q1 == "a") { $correctCount++; }
+            if ($q2 == "d") { $correctCount++; }
+            if ($q3 == "c") { $correctCount++; }
+            if ($q4 == "d") { $correctCount++; }
+            if ($q5 == "a") { $correctCount++; }
+		?>
+		<div id="Wrapper">
+			<div id="PlayButton">
+				<a href="play.html"><img src="playnow.png" /></a>
+			</div>
+			<div id="Banner">
+				<a href="index.html">
+                <object type="application/x-shockwave-flash" 
+  				data="banner2.swf" 
+  				width="1024" height="350">
+  			    <param name="movie" value="banner2.swf" />
+  				<param name="quality" value="high"/>
+				</object></a>
+			</div>
+			
+			<div id="NavSection">
+				<ul id="MainNav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="story.html">Story</a></li>
+					<li><a href="gameplay.html">Game</a></li>
+					<li class="empty">&nbsp;</li>
+					<li><a href="media.html">Media</a></li>
+					<li><a href="quiz.php">Quiz</a></li>
+					<li><a href="contact.php">Contact</a></li>
+				</ul>
+			</div>
+			<div id="MainBody">
+				<div id="QuizWrapper">
+					<h3>Cliff Defender Quiz</h3>
+					<form action="quiz.php" method="post" id="Quiz">
+						<ol>
+                        	<div id="QuizQuestionBox1">
+                        	<p>
+							<h4>Who did the trophy belong to?</h4>
+							<li>
+								<input type="radio" name="q1" id="q1a" value="a"/>
+								<label for="q1a"><b>A&#8226;)</b> A Tribe</label>
+                                <br>
+								<input type="radio" name="q1" id="q1b" value="b"/>
+								<label for="q1b"><b>B&#8226;)</b> A Mafia</label>
+                                <br>
+								<input type="radio" name="q1" id="q1c" value="c"/>
+								<label for="q1c"><b>C&#8226;)</b> A Church</label>
+                                <br>
+								<input type="radio" name="q1" id="q1d" value="d"/>
+								<label for="q1d"><b>D&#8226;)</b> A Business</label>
+							</li>
+                            </p>
+                            </div>
+                            <div id="QuizQuestionBox2">
+                            <p>
+							<h4>What do you need to protect in the game?</h4>
+							<!--<img src="http://dummyimage.com/300x150/000/fff"/>-->
+							<li>
+								<input type="radio" name="q2" id="q2a" value="a"/>
+								<label for="q2a"><b>A&#8226;)</b> A House</label>
+                                <br>
+								<input type="radio" name="q2" id="q2b" value="b"/>
+								<label for="q2b"><b>B&#8226;)</b> An Animal</label>
+                                <br>
+								<input type="radio" name="q2" id="q2c" value="c"/>
+								<label for="q2c"><b>C&#8226;)</b> A Tree</label>
+                                <br>
+								<input type="radio" name="q2" id="q2d" value="d"/>
+								<label for="q2d"><b>D&#8226;)</b> A Cliff</label>
+							</li>
+                            </p>
+                            </div>
+                            <div id="QuizQuestionBox3">
+                            <p>
+							<h4>which one of the following is an element that attacks the cliff?</h4>
+							<li>
+								<input type="radio" name="q3" id="q3a" value="a"/>
+								<label for="q3a"><b>A&#8226;)</b> Tornado</label>
+                                <br>
+								<input type="radio" name="q3" id="q3b" value="b"/>
+								<label for="q3b"><b>B&#8226;)</b> Fire</label>
+                                <br>
+								<input type="radio" name="q3" id="q3c" value="c"/>
+								<label for="q3c"><b>C&#8226;)</b> Wind</label>
+                                <br>
+								<input type="radio" name="q3" id="q3d" value="d"/>
+								<label for="q3d"><b>D&#8226;)</b> Tsunami</label>
+							</li>
+                            </p>
+                            </div>
+                            <div id="QuizQuestionBox4">
+                            <p>
+							<h4>Which of the following is a tower in the game?</h4>
+							<li>
+								<input type="radio" name="q4" id="q4a" value="a"/>
+								<label for="q4a"><b>A&#8226;)</b> Wind-wall</label>
+                                <br>
+								<input type="radio" name="q4" id="q4b" value="b"/>
+								<label for="q4b"><b>B&#8226;)</b> Maching-gun</label>
+                                <br>
+								<input type="radio" name="q4" id="q4c" value="c"/>
+								<label for="q4c"><b>C&#8226;)</b> Wave-wall</label>
+                                <br>
+								<input type="radio" name="q4" id="q4d" value="d"/>
+								<label for="q4d"><b>D&#8226;)</b> Wind-breaker</label>
+							</li>
+                            </p>
+                            </div>
+                            <div id="QuizQuestionBox5">
+                            <p>
+							<h4>What do you use to purchase towers?</h4>
+							<li>
+								<input type="radio" name="q5" id="q5a" value="a"/>
+								<label for="q5a"><b>A&#8226;)</b> Points</label>
+                                <br>
+								<input type="radio" name="q5" id="q5b" value="b"/>
+								<label for="q5b"><b>B&#8226;)</b> Pounds</label>
+                                <br>
+								<input type="radio" name="q5" id="q5c" value="c"/>
+								<label for="q5c"><b>C&#8226;)</b> Dollars</label>
+                                <br>
+								<input type="radio" name="q5" id="q5d" value="d"/>
+								<label for="q5d"><b>D&#8226;)</b> Credits</label>
+							</li>
+                            </p>
+                            </div>
+                            </ol>
+								<input type="submit" value="Submit Answers" class="submit"/>
+					</form>
+                    <div id="ResultsWrapper">
+					<h3>Your Results:</h3>
+					<span><?php echo"$correctCount / 5" ?><span>
+				</div>
+			</div>
+			</div>
+			<div id="Footer">
+				<p>Copyright &copy; 2013| Alex Bailey</p>
+			</div>
+		</div>
+	</body>
+</html>

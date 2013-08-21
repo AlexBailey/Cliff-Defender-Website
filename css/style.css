@@ -1,0 +1,305 @@
+/* Globals */
+body {
+	background-color: #000000;
+    font-family: "Myriad Pro", Helvetica, sans-serif;
+}
+img {
+    border: 0;
+}
+/* Main Sections */
+#Wrapper {
+	width: 1024px;
+	margin: 0px auto 0px;
+	position: relative;
+}
+#Banner {
+	height: 350px;
+	background-color: #aaaaaa;
+}
+#PlayButton {
+	position: absolute;
+	left: 387px;
+	top: 325px;
+}
+#MainBody {
+	background-color: #F8F8F8;
+	height: auto;
+	margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: hidden; /* for standards compliant browsers */
+    width: 100&#37;; /* for IE */
+	border-top-left-radius: 35px;
+	border-top-right-radius: 35px;
+
+}
+#NavSection {
+	height: 50px;
+	background-color: #FFFFFF;
+	border-top-left-radius: 35px;
+	border-top-right-radius: 35px;
+	border-bottom-left-radius: 35px;
+	border-bottom-right-radius: 35px;
+}
+#Footer {
+    height: 50px;
+    background-color: #D8D8D8;
+}
+#Footer p {
+    margin: 0;
+    padding-top: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+/* Nav */
+#MainNav {
+	list-style: none;
+	font-size: 24pt;
+	margin: 0;
+    padding: 0;
+}
+#MainNav a {
+	display: block;
+	text-decoration: none;
+    height: 45px;
+    width: 129px;
+    padding-top: 5px;
+    text-align: center;
+}
+#MainNav a:hover {
+    background-color: #dddddd;
+	border-top-left-radius: 35px;
+	border-top-right-radius: 35px;
+	border-bottom-left-radius: 35px;
+	border-bottom-right-radius: 35px;
+}
+#MainNav li {
+	float: left;
+    
+}
+#MainNav li.empty {
+    width: 250px;
+}
+
+/* Page Specific */
+/* index.html */
+.index p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.index h2 {
+    margin-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+/* media.html */
+#Media h2,h3,h4,p {
+    margin-left: 10px;
+}
+.mediaSectionWrapper {
+    background-color: #aaaaaa;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 1004px;
+    padding-top: 10px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	padding-bottom: 15px;
+}
+.mediaSectionWrapper h3,h4 {
+    margin:0;
+}
+.mediaSectionWrapper iframe {
+    margin-left: 6px;
+}
+#ImageGallery {
+    margin-left: 6px;
+    margin-right: 6px;
+}
+/* quiz.html */
+#QuizWrapper h3 {
+    margin-top: 0px;
+    margin-left: 10px;
+}
+#Quiz input {
+    vertical-align: middle;
+}
+#Quiz form {
+    margin: 0;
+}
+#Quiz ol {
+   margin: 0 0 10px 10px;
+   list-style-type: none;
+   padding: 0;
+}
+
+#Quiz ol li {
+   /*margin: 0 0 20px 0;*/
+   display: block;
+}
+#Quiz img {
+    margin-bottom: 10px
+}
+#QuizWrapper {
+    float:left;
+    clear: both;
+    width: 748px;
+    margin-left: 138px;
+    background-color: #aaaaaa;
+    padding-top: 10px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+#QuizQuestionBox1 {
+	background-color: #ffffff;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 10px;
+	margin-right: 20px;
+    width: auto;
+    padding-top: 10px;
+	padding-left: 25px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	padding-bottom: 15px;
+}
+
+#QuizQuestionBox2 {
+	background-color: #eeeeee;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 10px;
+	margin-right: 20px;
+    width: auto;
+    padding-top: 10px;
+	padding-left: 25px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	padding-bottom: 15px;
+}
+
+#QuizQuestionBox3 {
+	background-color: #dddddd;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 10px;
+	margin-right: 20px;
+    width: auto;
+    padding-top: 10px;
+	padding-left: 25px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	padding-bottom: 15px;
+}
+
+#QuizQuestionBox4 {
+	background-color: #cccccc;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 10px;
+	margin-right: 20px;
+    width: auto;
+    padding-top: 10px;
+	padding-left: 25px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	padding-bottom: 15px;
+}
+
+#QuizQuestionBox5 {
+	background-color: #bbbbbb;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 10px;
+	margin-right: 20px;
+    width: auto;
+    padding-top: 10px;
+	padding-left: 25px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	padding-bottom: 15px;
+}
+
+.submit {
+    margin-top: 20px;
+	margin-left: 319px;
+    margin-bottom: 20px;
+}
+#ResultsWrapper {
+    width: 246px;
+    background-color: #bbbbbb;
+    margin-right: auto;
+	margin-left: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+#ResultsWrapper h3 {
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+#ResultsWrapper span {
+    font-weight: bold;
+    font-size: 24pt;
+}
+/* Contact Form */
+#SupportWrapper {
+    width: 497px;
+    float: left;
+    clear:both;
+    background-color: #aaaaaa;
+    margin-left: 10px;
+    padding-bottom: 10px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+#ContactFormWrapper {
+    width: 497px;
+    float: right;
+    background-color: #aaaaaa;
+    margin-right: 10px;
+    padding-bottom: 10px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+#ContactFormWrapper form {
+    padding-left: 10px;
+}
+#ContactFormWrapper h3 {
+    padding-left: 10px;
+}
+/* Story */
+.story h3,h4,p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* Gameplay */
+.gameplay h3,h4,h5,p {
+    margin-left: 10px;
+}
